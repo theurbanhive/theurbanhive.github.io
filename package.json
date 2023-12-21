@@ -1,0 +1,17 @@
+{
+  "name": "theurbanhive.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:theurbanhive/theurbanhive.github.io.git",
+  "author": "Urbanhive",
+  "license": "None",
+  "private": true,
+  "scripts": {
+    "start": "serve"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "serve": "^14.2.1"
+  },
+  "packageManager": "yarn@4.0.2"
+}
