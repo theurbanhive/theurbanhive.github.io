@@ -1,7 +1,6 @@
 {
   "name": "theurbanhive.github.io",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:theurbanhive/theurbanhive.github.io.git",
   "author": "Urbanhive",
   "license": "None",
