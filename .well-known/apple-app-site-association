@@ -4,8 +4,15 @@
     "details": [
       {
         "appID": "8DLJUFF58Q.com.abtest.urbanhive",
-        "paths": [
-          "*"
+        "components": [
+          {
+            "/": "/property/*",
+            "comment": "Matches any URL with a path that starts with /property/."
+          },
+          {
+            "/": "/business/*",
+            "comment": "Matches any URL with a path that starts with /business/."
+          }
         ]
       }
     ]
