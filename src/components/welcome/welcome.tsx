@@ -1,7 +1,7 @@
 import { Anchor, Text, Title } from "@mantine/core";
 import styles from "./welcome.module.css";
 
-export default function Welcome() {
+export default () => {
   return (
     <>
       <Title className={styles.title} ta="center" mt={100}>
@@ -26,4 +26,4 @@ export default function Welcome() {
       </Text>
     </>
   );
-}
+};

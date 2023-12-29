@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/footer";
 import ToggleTheme from "@/components/toggleTheme/toggleTheme";
 import Welcome from "@/components/welcome/welcome";
 import Image from "next/image";
@@ -95,6 +96,8 @@ export default function Home() {
           </p>
         </a>
       </div>
+
+      <Footer />
     </main>
   );
 }
