@@ -1,5 +1,5 @@
 import { Container, Text } from "@mantine/core";
-import classes from "./footer.module.css";
+import styles from "./footer.module.css";
 
 const data = [
   {
@@ -36,7 +36,7 @@ export default () => {
     const links = group.links.map((link, index) => (
       <Text<"a">
         key={index}
-        className={classes.link}
+        className={styles.link}
         component="a"
         href={link.link}
       >
@@ -45,24 +45,24 @@ export default () => {
     ));
 
     return (
-      <div className={classes.wrapper} key={group.title}>
-        <Text className={classes.title}>{group.title}</Text>
+      <div className={styles.wrapper} key={group.title}>
+        <Text className={styles.title}>{group.title}</Text>
         {links}
       </div>
     );
   });
 
   return (
-    <footer className={classes.footer}>
-      <Container className={classes.inner}>
-        <div className={classes.logo}>
-          <Text size="xs" c="dimmed" className={classes.description}>
+    <footer className={styles.footer}>
+      <Container className={styles.inner}>
+        <div className={styles.logo}>
+          <Text size="xs" c="dimmed" className={styles.description}>
             Build fully functional accessible web applications faster than ever
           </Text>
         </div>
-        <div className={classes.groups}>{groups}</div>
+        <div className={styles.groups}>{groups}</div>
       </Container>
-      <Container className={classes.afterFooter}>
+      <Container className={styles.afterFooter}>
         <Text c="dimmed" size="sm">
           © 2020 mantine.dev. All rights reserved.
         </Text>

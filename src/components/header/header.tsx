@@ -11,7 +11,7 @@ import {
   rem,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import classes from "./header.module.css";
+import styles from "./header.module.css";
 
 export default () => {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
@@ -19,17 +19,17 @@ export default () => {
 
   return (
     <Box pb={120}>
-      <header className={classes.header}>
+      <header className={styles.header}>
         <Group justify="space-between" h="100%">
           <Group h="100%" gap={0} visibleFrom="sm">
-            <a href="#" className={classes.link}>
+            <a href="#" className={styles.link}>
               Home
             </a>
 
-            <a href="#" className={classes.link}>
+            <a href="#" className={styles.link}>
               Learn
             </a>
-            <a href="#" className={classes.link}>
+            <a href="#" className={styles.link}>
               Academy
             </a>
           </Group>
@@ -59,14 +59,14 @@ export default () => {
         <ScrollArea h={`calc(100vh - ${rem(80)})`} mx="-md">
           <Divider my="sm" />
 
-          <a href="#" className={classes.link}>
+          <a href="#" className={styles.link}>
             Home
           </a>
 
-          <a href="#" className={classes.link}>
+          <a href="#" className={styles.link}>
             Learn
           </a>
-          <a href="#" className={classes.link}>
+          <a href="#" className={styles.link}>
             Academy
           </a>
 
