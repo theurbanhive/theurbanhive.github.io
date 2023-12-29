@@ -1,3 +1,5 @@
+import ToggleTheme from "@/components/toggleTheme/toggleTheme";
+import Welcome from "@/components/welcome/welcome";
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -25,6 +27,7 @@ export default function Home() {
               priority
             />
           </a>
+          <ToggleTheme />
         </div>
       </div>
 
@@ -37,6 +40,8 @@ export default function Home() {
           height={37}
           priority
         />
+
+        <Welcome />
       </div>
 
       <div className={styles.grid}>
