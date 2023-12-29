@@ -1,4 +1,5 @@
 import Footer from "@/components/footer/footer";
+import Header from "@/components/header/header";
 import ToggleTheme from "@/components/toggleTheme/toggleTheme";
 import Welcome from "@/components/welcome/welcome";
 import Image from "next/image";
@@ -7,6 +8,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Header />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
