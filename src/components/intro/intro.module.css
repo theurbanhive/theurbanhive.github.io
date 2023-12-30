@@ -1,0 +1,12 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.video {
+  object-fit: cover;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: 0%;
+}

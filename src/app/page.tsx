@@ -1,3 +1,4 @@
+import Intro from "@/components/intro/intro";
 import Contact from "@/features/contact";
 import Footer from "@/features/footer";
 import Header from "@/features/header";
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header />
+      <Intro />
       <Hero />
       <Product />
       <Contact />
