@@ -4,7 +4,7 @@ import Features from "./features";
 
 export default function Product() {
   return (
-    <Container size="lg" py="xl">
+    <Container>
       <Features />
       <Audience />
     </Container>

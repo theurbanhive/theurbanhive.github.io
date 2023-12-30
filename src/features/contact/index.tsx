@@ -5,7 +5,7 @@ import Team from "./team";
 
 export default function Contact() {
   return (
-    <Container size="lg" py="xl">
+    <Container>
       <Team />
       <Faq />
       <Box mt={rem(64)} />

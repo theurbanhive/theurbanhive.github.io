@@ -5,7 +5,7 @@ import styles from "./hero.module.css";
 
 export default function Hero() {
   return (
-    <Container size="md">
+    <Container size="lg">
       <div className={styles.inner}>
         <div className={styles.content}>
           <Title className={styles.title}>
