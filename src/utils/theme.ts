@@ -17,6 +17,6 @@ export default createTheme({
     sm: rem(14),
     md: rem(16),
     lg: rem(20),
-    xl: rem(22),
+    xl: rem(24),
   },
 });

@@ -5,11 +5,16 @@ import Team from "./team";
 
 export default function Contact() {
   return (
-    <Container>
-      <Team />
-      <Faq />
-      <Box mt={rem(64)} />
+    <>
+      <Container>
+        <Team />
+        <Box mt={rem(64)} />
+      </Container>
       <Email />
-    </Container>
+      <Container>
+        <Box mt={rem(64)} />
+        <Faq />
+      </Container>
+    </>
   );
 }

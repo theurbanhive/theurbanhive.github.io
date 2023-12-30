@@ -29,6 +29,7 @@
 }
 
 .cardTitle {
+  height: rem(72px);
   &::after {
     content: "";
     display: block;

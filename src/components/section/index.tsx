@@ -4,7 +4,7 @@ import styles from "./section.module.css";
 
 type SectionProps = {
   header?: string;
-  title?: string;
+  title?: string | React.ReactNode;
   description?: string | React.ReactNode;
   className?: string;
   children: React.ReactNode;

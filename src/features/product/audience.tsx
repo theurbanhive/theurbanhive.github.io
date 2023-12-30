@@ -1,30 +1,31 @@
-"use client";
-
-import { Container, SimpleGrid, Text, Title } from "@mantine/core";
+import Section from "@/components/section";
+import { Container, SimpleGrid, Text, rem } from "@mantine/core";
 import styles from "./audience.module.css";
 
 const data = [
   {
     image: "auditors",
-    title: "Pharmacists",
+    title: "Branding and marketing",
     description:
-      "Azurill can be seen bouncing and playing on its big, rubbery tail",
+      "Individuals or agencies skilled in branding, digital marketing, social media management, and advertising to boost brand visibility.",
   },
   {
     image: "lawyers",
-    title: "Lawyers",
-    description: "Fans obsess over the particular length and angle of its arms",
+    title: "Local authorities",
+    description:
+      "Contacts for permits, licenses, regulations, and assistance programs relevant to the business's location and industry.",
   },
   {
     image: "accountants",
-    title: "Bank owners",
+    title: "Networking",
     description:
-      "They divvy up their prey evenly among the members of their pack",
+      "Platforms or associations where businesses can connect, share knowledge, and build partnerships.",
   },
   {
     image: "others",
-    title: "Others",
-    description: "Phanpy uses its long nose to shower itself",
+    title: "Suppliers",
+    description:
+      "Reliable sources for essential products or materials needed for day-to-day operations.",
   },
 ];
 
@@ -50,26 +51,31 @@ export default function Audience() {
   ));
 
   return (
-    <Container size={700} className={styles.wrapper}>
-      <Text className={styles.supTitle}>Use cases</Text>
-
-      <Title className={styles.title} order={2}>
-        PharmLand is <span className={styles.highlight}>not</span> just for
-        pharmacists
-      </Title>
-
-      <Container size={660} p={0}>
-        <Text c="dimmed" className={styles.description}>
-          Its lungs contain an organ that creates electricity. The crackling
-          sound of electricity can be heard when it exhales. Azurill’s tail is
-          large and bouncy. It is packed full of the nutrients this Pokémon
-          needs to grow.
+    <Section
+      header="Beyond the search"
+      title={
+        <>
+          Urbanhive is <span className={styles.highlight}>not</span> just a
+          listing platform
+        </>
+      }
+    >
+      <Container size={rem(640)}>
+        <Text c="dimmed" ta="center">
+          Urbanhive is your gateway to a thriving business ecosystem. Seamlessly
+          connecting small businesses with property owners through our intuitive
+          mobile app is just the beginning.
         </Text>
       </Container>
 
-      <SimpleGrid cols={{ base: 1, xs: 2 }} spacing={50} mt={30}>
+      <SimpleGrid
+        cols={{ base: 1, sm: 2 }}
+        spacing={50}
+        mt={rem(100)}
+        mb={rem(50)}
+      >
         {items}
       </SimpleGrid>
-    </Container>
+    </Section>
   );
 }
