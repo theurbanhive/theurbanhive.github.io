@@ -52,7 +52,7 @@ export default function Audience() {
 
   return (
     <Section
-      header="Beyond the search"
+      header="Beyond the basics"
       title={
         <>
           Urbanhive is <span className={styles.highlight}>not</span> just a
@@ -62,9 +62,10 @@ export default function Audience() {
     >
       <Container size={rem(640)}>
         <Text c="dimmed" ta="center">
-          Urbanhive is your gateway to a thriving business ecosystem. Seamlessly
-          connecting small businesses with property owners through our intuitive
-          mobile app is just the beginning.
+          Urbanhive is your gateway to a thriving business ecosystem. Connect
+          with a diverse community of entrepreneurs, landlords, vendors, and
+          experts. Uncover a world where collaboration, innovation, and growth
+          intersect, propelling your business towards limitless possibilities.
         </Text>
       </Container>
 

@@ -4,6 +4,11 @@ import styles from "./features.module.css";
 
 const mockdata = [
   {
+    title: "Listings are free",
+    description:
+      "Urbanhive removes financial barriers by providing complimentary listings for businesses and commercial properties. Say goodbye to expensive fees and hello to showcasing your venture or space without the burden of costs.",
+  },
+  {
     title: "Keep it simple",
     description:
       "Urbanhive simplifies the commercial real estate searching and leasing process, providing businesses and landlords with an efficient platform to find, negotiate, and secure leases, reducing time and hassle. ",
@@ -17,6 +22,18 @@ const mockdata = [
     title: "Do more on the go",
     description:
       "We've built a cohesive mobile experience that's packed with features designed to make your small business journey as enjoyable and engaging as possible. From personalized recommendations to real-time chat, we've got you covered.",
+  },
+  {
+    title: "Lighting fast",
+    description: `Encounter swift interactions on Urbanhive,
+              ensuring immediate connections between businesses and landlords,
+              streamlining your search for the ideal space with unparalleled
+              speed and efficiency.`,
+  },
+  {
+    title: "Data driven",
+    description:
+      "Gain a competitive edge by accessing trends, market analysis, and actionable data, guiding informed decisions for your commercial real estate endeavors.",
   },
 ];
 
