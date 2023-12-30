@@ -2,7 +2,7 @@ import { Box, Group, rem } from "@mantine/core";
 import Link from "next/link";
 import styles from "./header.module.css";
 
-export default () => {
+export default function Header() {
   return (
     <Box pb={rem(200)}>
       <header className={styles.header}>
@@ -14,4 +14,4 @@ export default () => {
       </header>
     </Box>
   );
-};
+}

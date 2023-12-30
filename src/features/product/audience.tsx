@@ -28,7 +28,7 @@ const data = [
   },
 ];
 
-export default () => {
+export default function Audience() {
   const items = data.map((item) => (
     <div className={styles.item} key={item.image}>
       {/* <ThemeIcon
@@ -72,4 +72,4 @@ export default () => {
       </SimpleGrid>
     </Container>
   );
-};
+}

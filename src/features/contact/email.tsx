@@ -1,8 +1,8 @@
 import { Button, Text, TextInput, Title } from "@mantine/core";
-import styles from "./contact.module.css";
+import styles from "./email.module.css";
 // import image from "./image.svg";
 
-export default () => {
+export default function Email() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.body}>
@@ -10,6 +10,7 @@ export default () => {
         <Text fw={500} fz="lg" mb={5}>
           Subscribe to our newsletter!
         </Text>
+
         <Text fz="sm" c="dimmed">
           You will never miss important product updates, latest news and
           community QA sessions. Our newsletter is once a week, every Sunday.
@@ -26,4 +27,4 @@ export default () => {
       {/* <Image src={image.src} className={classes.image} /> */}
     </div>
   );
-};
+}

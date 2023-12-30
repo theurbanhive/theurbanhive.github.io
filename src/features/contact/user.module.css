@@ -1,0 +1,15 @@
+.card {
+  position: relative;
+}
+
+.avatar {
+  top: rem(-36px);
+  left: rem(18px);
+  position: absolute;
+  z-index: 10000;
+}
+
+.name {
+  font-weight: 700;
+  font-family: var(--mantine-font-family-headings);
+}

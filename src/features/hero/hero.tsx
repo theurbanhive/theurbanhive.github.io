@@ -3,7 +3,7 @@
 import { Button, Container, Group, List, Text, Title } from "@mantine/core";
 import styles from "./hero.module.css";
 
-export default () => {
+export default function Hero() {
   return (
     <Container size="md">
       <div className={styles.inner}>
@@ -51,4 +51,4 @@ export default () => {
       </div>
     </Container>
   );
-};
+}

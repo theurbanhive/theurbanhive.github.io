@@ -30,7 +30,7 @@ const mockdata = [
   },
 ];
 
-export default () => {
+export default function Features() {
   const theme = useMantineTheme();
   const features = mockdata.map((feature) => (
     <Card
@@ -71,4 +71,4 @@ export default () => {
       </SimpleGrid>
     </Container>
   );
-};
+}

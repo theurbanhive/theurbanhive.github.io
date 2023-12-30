@@ -2,7 +2,7 @@
 
 import { Button, Group, useMantineColorScheme } from "@mantine/core";
 
-export default () => {
+export default function ToggleTheme() {
   const { setColorScheme } = useMantineColorScheme();
 
   return (
@@ -12,4 +12,4 @@ export default () => {
       <Button onClick={() => setColorScheme("auto")}>Auto</Button>
     </Group>
   );
-};
+}
