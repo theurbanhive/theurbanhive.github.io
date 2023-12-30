@@ -5,7 +5,8 @@ import styles from "./section.module.css";
 type SectionProps = {
   header?: string;
   title?: string;
-  description?: string;
+  description?: string | React.ReactNode;
+  className?: string;
   children: React.ReactNode;
 };
 
@@ -14,9 +15,10 @@ export default function Section({
   title,
   description,
   children,
+  className,
 }: SectionProps) {
   return (
-    <Box size="lg" py={rem(96)}>
+    <Box className={className} size="lg" py={rem(72)}>
       <Visible isVisible={header}>
         <Group justify="center" mb="lg">
           <Badge variant="transparent" size="lg">
