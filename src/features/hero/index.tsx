@@ -1,4 +1,6 @@
+import Highlight from "@/components/highlight";
 import { Button, Container, Group, Text, Title, rem } from "@mantine/core";
+import Link from "next/link";
 import styles from "./hero.module.css";
 
 export default function Hero() {
@@ -7,7 +9,7 @@ export default function Hero() {
       <div className={styles.inner}>
         <div className={styles.content}>
           <Title className={styles.title}>
-            Introducing <span className={styles.highlight}>Urbanhive</span>
+            Introducing <Highlight>Urbanhive</Highlight>
           </Title>
           <Text mt="lg">
             A premier commercial real estate platform, where where the city's
@@ -16,9 +18,11 @@ export default function Hero() {
           </Text>
 
           <Group mt={rem(60)}>
-            <Button radius="xl" size="md" className={styles.control}>
-              Get the app
-            </Button>
+            <Link href="/app">
+              <Button radius="xl" size="md" className={styles.control}>
+                Get the app
+              </Button>
+            </Link>
           </Group>
         </div>
         {/* <Image src={image.src} className={styles.image} /> */}

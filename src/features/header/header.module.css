@@ -10,4 +10,6 @@
   font-weight: 700;
   font-size: var(--mantine-font-size-xl);
   font-family: var(--mantine-font-family-headings);
+  flex: 1;
+  text-align: center;
 }

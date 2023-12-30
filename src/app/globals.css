@@ -4,17 +4,6 @@
   --background-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-rgb: 0, 0, 0;
-  }
-
-  html {
-    color-scheme: dark;
-  }
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -34,8 +23,11 @@ html {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  color: light-dark(rgb(var(--foreground-rgb)), rgb(var(--background-rgb)));
+  background: light-dark(
+    rgb(var(--background-rgb)),
+    rgb(var(--foreground-rgb))
+  );
 }
 
 a {
