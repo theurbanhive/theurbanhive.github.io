@@ -57,6 +57,7 @@ export default function Features() {
 
   return (
     <Section
+      id="features"
       header="Core Features"
       title="Find the perfect location for your business"
       description="Our platform empowers small businesses to showcase their vision, enabling direct communication with landlords, laying the groundwork for your success."

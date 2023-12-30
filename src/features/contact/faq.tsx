@@ -10,7 +10,7 @@ const placeholder =
 
 export function Faq() {
   return (
-    <Section title="Frequently asked questions">
+    <Section id="faq" title="Frequently asked questions">
       <Grid id="faq-grid" gutter={50}>
         <Grid.Col span={{ base: 12, md: 6 }}>
           {/* <Image src={image.src} alt="Frequently Asked Questions" /> */}

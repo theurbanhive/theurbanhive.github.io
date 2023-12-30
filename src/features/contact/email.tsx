@@ -6,6 +6,7 @@ import styles from "./email.module.css";
 export default function Email() {
   return (
     <Section
+      id="contact"
       className={styles.wrapper}
       title="Interested in an early access?"
       description={

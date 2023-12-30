@@ -52,6 +52,7 @@ export default function Audience() {
 
   return (
     <Section
+      id="ecosystem"
       header="Beyond the basics"
       title={
         <>

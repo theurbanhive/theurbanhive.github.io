@@ -12,10 +12,11 @@ import User from "./user";
 export default function Team() {
   return (
     <Section
+      id="team"
       header="Our team"
       title="Meet our founders"
       description="Each of us has a unique story and wealth of experience in different
-        fields. Together we have built a product that will help people to be
+        fields. Together we have built a product that will help people be
         more productive and focused on what really matters."
     >
       <SimpleGrid cols={{ base: 1, md: 3 }} spacing="xl">
