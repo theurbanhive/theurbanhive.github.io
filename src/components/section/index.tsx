@@ -3,7 +3,7 @@ import Visible from "../visible";
 import styles from "./section.module.css";
 
 type SectionProps = {
-  header: string;
+  header?: string;
   title?: string;
   description?: string;
   children: React.ReactNode;
@@ -16,12 +16,14 @@ export default function Section({
   children,
 }: SectionProps) {
   return (
-    <Box size="lg" pb={rem(120)}>
-      <Group justify="center" mb="lg">
-        <Badge variant="transparent" size="lg">
-          {header}
-        </Badge>
-      </Group>
+    <Box size="lg" py={rem(96)}>
+      <Visible isVisible={header}>
+        <Group justify="center" mb="lg">
+          <Badge variant="transparent" size="lg">
+            {header}
+          </Badge>
+        </Group>
+      </Visible>
 
       <Visible isVisible={title}>
         <Title order={2} className={styles.title} ta="center" my={rem(40)}>

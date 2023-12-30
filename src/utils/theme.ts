@@ -13,10 +13,10 @@ export default createTheme({
   },
   fontFamily: bodyFont.style.fontFamily,
   fontSizes: {
-    xs: rem(10),
-    sm: rem(11),
-    md: rem(14),
-    lg: rem(16),
-    xl: rem(20),
+    xs: rem(13),
+    sm: rem(14),
+    md: rem(16),
+    lg: rem(20),
+    xl: rem(22),
   },
 });
