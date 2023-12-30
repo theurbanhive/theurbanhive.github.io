@@ -1,0 +1,20 @@
+.main {
+  min-height: 100vh;
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "content"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: rem(38px);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    font-size: rem(32px);
+  }
+}

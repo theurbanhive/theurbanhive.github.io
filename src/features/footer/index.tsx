@@ -48,7 +48,6 @@ const data = [
     title: "Resources",
     links: [
       { label: "Privacy", link: "/privacy" },
-      { label: "Terms", link: "/terms" },
       { label: "Investors", link: "mailto:investors@urbanhive.io" },
       { label: "Support", link: "mailto:support@urbanhive.io" },
       { label: "Brand", link: "/brand" },
