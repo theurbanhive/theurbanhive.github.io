@@ -15,7 +15,7 @@ export default function User({
   displayName,
   position,
   blurb,
-  children,
+  children
 }: UserProps) {
   return (
     <Paper

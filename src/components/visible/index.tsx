@@ -7,7 +7,7 @@ type VisibleProps<T> = {
 export default function Visible<T>({
   isVisible,
   fallback,
-  children,
+  children
 }: VisibleProps<T>) {
-  return Boolean(isVisible) ? children : fallback;
+  return isVisible ? children : fallback;
 }

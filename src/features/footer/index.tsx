@@ -7,13 +7,13 @@ import {
   Stack,
   Text,
   Title,
-  rem,
+  rem
 } from "@mantine/core";
 import {
   GithubIcon,
   LinkedinIcon,
   TwitterIcon,
-  YoutubeIcon,
+  YoutubeIcon
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -29,12 +29,12 @@ const data = [
       { label: "Ecosystem", link: "#ecosystem" },
       { label: "Team", link: "#team" },
       { label: "Contact", link: "#contact" },
-      { label: "FAQ", link: "#faq" },
+      { label: "FAQ", link: "#faq" }
       // { label: "Media assets", link: "#" },
       // { label: "Pricing", link: "#" },
       // { label: "Support", link: "#" },
       // { label: "Forums", link: "#" },
-    ],
+    ]
   },
   // {
   //   title: "Project",
@@ -50,12 +50,12 @@ const data = [
       { label: "Privacy", link: "/privacy" },
       { label: "Investors", link: "mailto:investors@urbanhive.io" },
       { label: "Support", link: "mailto:support@urbanhive.io" },
-      { label: "Brand", link: "/brand" },
+      { label: "Brand", link: "/brand" }
       // { label: "Follow on Twitter", link: "#" },
       // { label: "Email newsletter", link: "#" },
       // { label: "GitHub discussions", link: "#" },
-    ],
-  },
+    ]
+  }
 ];
 
 export default function Footer() {

@@ -9,7 +9,7 @@ const bodyFont = Outfit({ subsets: ["latin"] });
 export default createTheme({
   headings: {
     fontWeight: "400",
-    fontFamily: headingFont.style.fontFamily,
+    fontFamily: headingFont.style.fontFamily
   },
   fontFamily: bodyFont.style.fontFamily,
   fontSizes: {
@@ -17,6 +17,6 @@ export default createTheme({
     sm: rem(14),
     md: rem(16),
     lg: rem(20),
-    xl: rem(24),
-  },
+    xl: rem(24)
+  }
 });

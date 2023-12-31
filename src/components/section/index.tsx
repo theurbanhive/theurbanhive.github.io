@@ -17,7 +17,7 @@ export default function Section({
   title,
   description,
   children,
-  className,
+  className
 }: SectionProps) {
   return (
     <Box id={id} className={className} size="lg" py={rem(72)}>

@@ -7,26 +7,26 @@ const data = [
     image: "auditors",
     title: "Branding and marketing",
     description:
-      "Individuals or agencies skilled in branding, digital marketing, social media management, and advertising to boost brand visibility.",
+      "Individuals or agencies skilled in branding, digital marketing, social media management, and advertising to boost brand visibility."
   },
   {
     image: "lawyers",
     title: "Local authorities",
     description:
-      "Contacts for permits, licenses, regulations, and assistance programs relevant to the business's location and industry.",
+      "Contacts for permits, licenses, regulations, and assistance programs relevant to the business's location and industry."
   },
   {
     image: "accountants",
     title: "Networking",
     description:
-      "Platforms or associations where businesses can connect, share knowledge, and build partnerships.",
+      "Platforms or associations where businesses can connect, share knowledge, and build partnerships."
   },
   {
     image: "others",
     title: "Suppliers",
     description:
-      "Reliable sources for essential products or materials needed for day-to-day operations.",
-  },
+      "Reliable sources for essential products or materials needed for day-to-day operations."
+  }
 ];
 
 export default function Audience() {

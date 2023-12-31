@@ -4,7 +4,7 @@ import {
   GithubIcon,
   InstagramIcon,
   LinkedinIcon,
-  TwitterIcon,
+  TwitterIcon
 } from "lucide-react";
 import Link from "next/link";
 import User from "./user";

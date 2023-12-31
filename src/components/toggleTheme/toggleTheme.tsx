@@ -3,7 +3,7 @@
 import {
   ActionIcon,
   MantineColorScheme,
-  useMantineColorScheme,
+  useMantineColorScheme
 } from "@mantine/core";
 import { useColorScheme } from "@mantine/hooks";
 import { MoonIcon, SunIcon, SunMoonIcon } from "lucide-react";
@@ -35,7 +35,7 @@ export default function ToggleTheme() {
 
   useEffect(() => {
     setColorScheme(colorScheme);
-  }, [colorScheme]);
+  }, [colorScheme, setColorScheme]);
 
   return (
     <ActionIcon
