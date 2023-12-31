@@ -1,9 +1,17 @@
 .header {
+  position: sticky;
+  top: 0;
+  background: light-dark(
+    rgb(var(--background-rgb)),
+    rgb(var(--foreground-rgb))
+  );
+  z-index: 10000;
   height: rem(60px);
   padding-left: var(--mantine-spacing-md);
   padding-right: var(--mantine-spacing-md);
   border-bottom: rem(1px) solid
     light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  box-shadow: var(--mantine-shadow-sm);
 }
 
 .brand {
