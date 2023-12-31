@@ -1,14 +1,24 @@
 .main {
-  height: 100%;
-  width: 100%;
-  position: relative;
+  background: #fdedb9;
 }
 
 .video {
   object-fit: cover;
   width: 100%;
-  top: 0;
-  left: 0;
-  transform-origin: 0%;
-  position: sticky;
+  height: 100vh;
+}
+
+.hero {
+  padding: rem(50);
+}
+
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-size: rem(48);
+  line-height: 1.2;
+  font-weight: 900;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    font-size: rem(28px);
+  }
 }
