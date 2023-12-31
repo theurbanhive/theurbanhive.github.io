@@ -1,0 +1,24 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "8DLJUFF58Q.com.abtest.urbanhive",
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Matches any URL whose path starts with /."
+          },
+          {
+            "/": "/property/*",
+            "comment": "Matches any URL with a path that starts with /property/."
+          },
+          {
+            "/": "/business/*",
+            "comment": "Matches any URL with a path that starts with /business/."
+          }
+        ]
+      }
+    ]
+  }
+}

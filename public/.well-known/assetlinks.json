@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.abtest.urbanhive",
+      "sha256_cert_fingerprints": [
+        "07:B1:DA:BD:25:57:38:2C:B5:22:89:DB:71:54:40:B0:B4:4E:7A:52:62:D2:54:BD:B8:53:46:6D:0E:7C:9A:58"
+      ]
+    }
+  }
+]
