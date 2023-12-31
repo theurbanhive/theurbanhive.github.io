@@ -11,5 +11,9 @@ export default withBundleAnalyzer({
   },
   experimental: {
     optimizePackageImports: ["@mantine/core", "@mantine/hooks"]
+  },
+  output: "export",
+  images: {
+    unoptimized: true
   }
 });
