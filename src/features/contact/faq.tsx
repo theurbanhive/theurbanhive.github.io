@@ -1,5 +1,3 @@
-"use client";
-
 import { Accordion, Grid } from "@mantine/core";
 // import image from "./image.svg";
 import Section from "@/components/section";

@@ -1,6 +1,7 @@
 .main {
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .video {
@@ -9,4 +10,5 @@
   top: 0;
   left: 0;
   transform-origin: 0%;
+  position: sticky;
 }

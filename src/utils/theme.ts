@@ -1,5 +1,3 @@
-"use client";
-
 import { createTheme, rem } from "@mantine/core";
 import { Outfit, Space_Grotesk } from "next/font/google";
 
